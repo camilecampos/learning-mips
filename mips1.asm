@@ -2,8 +2,8 @@
 #   by Kenneth Vollmar and Pete Sanderson
 
         .data
-fout:   .asciiz "testout.txt"      # filename for output
-buffer: .asciiz "escrevi"
+fout:   .asciiz "testout.in"      # filename for output
+buffer: .asciiz  "escrevi"
         .text
   ###############################################################
   # Open (for writing) a file that does not exist
